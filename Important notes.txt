@@ -1,0 +1,12 @@
+
+==> we have a class called runtime using that we can open any application
+==> Runtijme class have a method called Exec , where we can give the exe file name and the file to open
+		
+		Runtime runtime = Runtime.getRuntime();
+		Process process = runtime.exec("notepad.exe");
+		Thread.sleep(5000);
+		process.destroy();
+
+
+
+https://emicalculator.net/ - has graphs to work on
